@@ -17,6 +17,9 @@ public class Order {
         this.totalCost = totalCost;
     }
 
+    public Order() {
+    }
+
     public int getId() {
         return id;
     }
